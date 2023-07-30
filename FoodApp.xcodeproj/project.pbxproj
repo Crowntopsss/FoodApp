@@ -13,6 +13,7 @@
 		D1C7489A2A6DE7DD002254A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C748982A6DE7DD002254A6 /* Main.storyboard */; };
 		D1C7489C2A6DE7DF002254A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C7489B2A6DE7DF002254A6 /* Assets.xcassets */; };
 		D1C7489F2A6DE7DF002254A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C7489D2A6DE7DF002254A6 /* LaunchScreen.storyboard */; };
+		D1CF2AF42A75A4B5004EA1F0 /* YellowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF2AF32A75A4B5004EA1F0 /* YellowButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D1C7489B2A6DE7DF002254A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C7489E2A6DE7DF002254A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C748A02A6DE7DF002254A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CF2AF32A75A4B5004EA1F0 /* YellowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				D1C7489B2A6DE7DF002254A6 /* Assets.xcassets */,
 				D1C7489D2A6DE7DF002254A6 /* LaunchScreen.storyboard */,
 				D1C748A02A6DE7DF002254A6 /* Info.plist */,
+				D1CF2AF22A75A48A004EA1F0 /* CustomView */,
 			);
 			path = FoodApp;
+			sourceTree = "<group>";
+		};
+		D1CF2AF22A75A48A004EA1F0 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF2AF32A75A4B5004EA1F0 /* YellowButton.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1C748972A6DE7DD002254A6 /* ViewController.swift in Sources */,
+				D1CF2AF42A75A4B5004EA1F0 /* YellowButton.swift in Sources */,
 				D1C748932A6DE7DD002254A6 /* AppDelegate.swift in Sources */,
 				D1C748952A6DE7DD002254A6 /* SceneDelegate.swift in Sources */,
 			);
