@@ -172,10 +172,221 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jED-9R-6LG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="765.60000000000002" y="-2.2488755622188905"/>
+            <point key="canvasLocation" x="783" y="-2"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EgG-hG-HEd">
+            <objects>
+                <viewController id="5o1-g9-xFa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nj2-uo-8Sg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rk5-Qy-b3w">
+                                <rect key="frame" x="20" y="40" width="335" height="257"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot password" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bk-qX-gBV">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                        <color key="textColor" name="#010f07"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email address and we will send you a reset instructions." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwx-pv-ibT">
+                                        <rect key="frame" x="0.0" y="56" width="335" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" name="#868686"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlG-Ch-ngS">
+                                        <rect key="frame" x="0.0" y="114.5" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="joe@mail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1SG-7L-mDn">
+                                        <rect key="frame" x="0.0" y="149" width="335" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="r61-dk-ctg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" textContentType="email"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzp-sC-fNX" customClass="YellowButton" customModule="FoodApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="209" width="335" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="CHU-sJ-0SF"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="RESET PASSWORD"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lp4-Db-vwJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rk5-Qy-b3w" firstAttribute="leading" secondItem="lp4-Db-vwJ" secondAttribute="leading" constant="20" id="GDI-DO-mJ0"/>
+                            <constraint firstItem="lp4-Db-vwJ" firstAttribute="trailing" secondItem="Rk5-Qy-b3w" secondAttribute="trailing" constant="20" id="SDo-2G-g4x"/>
+                            <constraint firstItem="Rk5-Qy-b3w" firstAttribute="top" secondItem="lp4-Db-vwJ" secondAttribute="top" constant="20" id="XMf-Um-7dz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPi-v7-oJv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1524" y="-2"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xG4-U7-FkD">
+            <objects>
+                <viewController id="CwH-bw-8TY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fvh-8I-p0R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Npu-bh-GrD">
+                                <rect key="frame" x="20" y="40" width="335" height="162.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reset sent email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC4-nL-gB9">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                        <color key="textColor" name="#010f07"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We have sent a instructions email to sajin tamang@figma.com." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKC-T5-9aa">
+                                        <rect key="frame" x="0.0" y="56" width="335" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" name="#868686"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9I-Gd-6Wb" customClass="YellowButton" customModule="FoodApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="114.5" width="335" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="THu-zO-LMC"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="SENT AGAIN"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffe_cup" translatesAutoresizingMaskIntoConstraints="NO" id="Wcn-al-FiV">
+                                <rect key="frame" x="16" y="228" width="343" height="402"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OWr-iL-bao"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OWr-iL-bao" firstAttribute="trailing" secondItem="Npu-bh-GrD" secondAttribute="trailing" constant="20" id="7aT-Zn-BYI"/>
+                            <constraint firstItem="Npu-bh-GrD" firstAttribute="top" secondItem="OWr-iL-bao" secondAttribute="top" constant="20" id="Mjr-bQ-0Ug"/>
+                            <constraint firstItem="OWr-iL-bao" firstAttribute="trailing" secondItem="Wcn-al-FiV" secondAttribute="trailing" constant="20" id="QYm-Fd-5Ff"/>
+                            <constraint firstItem="Npu-bh-GrD" firstAttribute="leading" secondItem="OWr-iL-bao" secondAttribute="leading" constant="20" id="bZB-Zb-bac"/>
+                            <constraint firstItem="OWr-iL-bao" firstAttribute="bottom" secondItem="Wcn-al-FiV" secondAttribute="bottom" constant="30" id="f29-lt-MTb"/>
+                            <constraint firstItem="Wcn-al-FiV" firstAttribute="leading" secondItem="OWr-iL-bao" secondAttribute="leading" constant="20" id="fCy-3k-jWy"/>
+                            <constraint firstItem="Wcn-al-FiV" firstAttribute="top" secondItem="Npu-bh-GrD" secondAttribute="bottom" constant="30" id="oXv-wR-UaX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7wI-fS-Fk3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2281" y="-2"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uA1-el-RAU">
+            <objects>
+                <viewController id="qPw-jT-aOi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p63-8P-hLQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YnU-SU-Jah">
+                                <rect key="frame" x="20" y="40" width="335" height="531"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Tamang Food Service " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gP-BO-u8q">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                        <color key="textColor" name="#010f07"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your Phone number or Email address for sign in. Enjoy your food :)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppu-dA-kRY">
+                                        <rect key="frame" x="0.0" y="92" width="335" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" name="#868686"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FULL NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14o-wr-eVa">
+                                        <rect key="frame" x="0.0" y="150.5" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="John Doe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YUk-uA-wGx">
+                                        <rect key="frame" x="0.0" y="185" width="335" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Msd-0W-Cjg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" textContentType="email"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG5-qr-kNd">
+                                        <rect key="frame" x="0.0" y="245" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="joe@mail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="leK-NJ-TWr">
+                                        <rect key="frame" x="0.0" y="279.5" width="335" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Zd4-fh-cI9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" textContentType="email"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDb-6O-a0x">
+                                        <rect key="frame" x="0.0" y="339.5" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CAo-na-iv2">
+                                        <rect key="frame" x="0.0" y="374" width="335" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="VTV-hd-Sc4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXU-sm-PrL" customClass="YellowButton" customModule="FoodApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="434" width="335" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="nn4-oo-cOx"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="SIGN UP"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Signing up you agree to our Terms Conditions &amp; Privacy Policy." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vtx-bZ-x9T">
+                                        <rect key="frame" x="0.0" y="502" width="335" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <color key="textColor" name="#868686"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xgg-8A-OD6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YnU-SU-Jah" firstAttribute="leading" secondItem="Xgg-8A-OD6" secondAttribute="leading" constant="20" id="BqN-W6-vc9"/>
+                            <constraint firstItem="YnU-SU-Jah" firstAttribute="top" secondItem="Xgg-8A-OD6" secondAttribute="top" constant="20" id="JWQ-eo-gRF"/>
+                            <constraint firstItem="Xgg-8A-OD6" firstAttribute="trailing" secondItem="YnU-SU-Jah" secondAttribute="trailing" constant="20" id="OLW-CE-57v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAp-U6-7GX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3026" y="-2"/>
         </scene>
     </scenes>
     <resources>
+        <image name="coffe_cup" width="307" height="237"/>
         <image name="iceCream" width="214" height="243"/>
         <image name="logo" width="65" height="65"/>
         <namedColor name="#010f07">
