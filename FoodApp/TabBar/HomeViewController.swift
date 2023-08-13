@@ -9,11 +9,21 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
+        tableView.delegate = self
+        tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
+    
+    
     
 
     /*

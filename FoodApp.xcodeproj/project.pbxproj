@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840308D22A898EF60008B744 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840308D12A898EF60008B744 /* CollectionViewCell.swift */; };
+		840308D42A898F100008B744 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840308D32A898F100008B744 /* TableViewCell.swift */; };
 		D11BD2822A8959D000B2DA7C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11BD2812A8959D000B2DA7C /* TabBarController.swift */; };
 		D120DAF92A7D62380047E422 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120DAF82A7D62380047E422 /* HomeViewController.swift */; };
 		D120DAFC2A7D62960047E422 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120DAFB2A7D62960047E422 /* SearchViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840308D12A898EF60008B744 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		840308D32A898F100008B744 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D11BD2812A8959D000B2DA7C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D120DAF82A7D62380047E422 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D120DAFB2A7D62960047E422 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840308D02A898EBD0008B744 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				840308D12A898EF60008B744 /* CollectionViewCell.swift */,
+				840308D32A898F100008B744 /* TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		D120DAFA2A7D62420047E422 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 		D1C748912A6DE7DD002254A6 /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				840308D02A898EBD0008B744 /* Cells */,
 				D1C527D32A894CD800412C31 /* Onboarding */,
 				D120DAFA2A7D62420047E422 /* TabBar */,
 				D1C748922A6DE7DD002254A6 /* AppDelegate.swift */,
@@ -192,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840308D42A898F100008B744 /* TableViewCell.swift in Sources */,
 				D1C527D52A894D0000412C31 /* WelcomeViewController.swift in Sources */,
 				D11BD2822A8959D000B2DA7C /* TabBarController.swift in Sources */,
 				D120DAFC2A7D62960047E422 /* SearchViewController.swift in Sources */,
@@ -202,6 +217,7 @@
 				D1C527D72A894DAA00412C31 /* ForgotPasswordViewController.swift in Sources */,
 				D1C748932A6DE7DD002254A6 /* AppDelegate.swift in Sources */,
 				D1C527D92A894E1900412C31 /* EmailSentViewController.swift in Sources */,
+				840308D22A898EF60008B744 /* CollectionViewCell.swift in Sources */,
 				D120DB002A7D62E10047E422 /* ProfileViewController.swift in Sources */,
 				D1C527DB2A894E8900412C31 /* SignUpPageViewController.swift in Sources */,
 				D1C748952A6DE7DD002254A6 /* SceneDelegate.swift in Sources */,
