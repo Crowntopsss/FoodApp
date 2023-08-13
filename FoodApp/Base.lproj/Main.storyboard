@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xZW-GZ-jl0">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -59,7 +59,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="iceCream" translatesAutoresizingMaskIntoConstraints="NO" id="rBp-ML-IMC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="img-ice-cream" translatesAutoresizingMaskIntoConstraints="NO" id="rBp-ML-IMC">
                                 <rect key="frame" x="50" y="190" width="275" height="227"/>
                             </imageView>
                         </subviews>
@@ -269,8 +269,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffe_cup" translatesAutoresizingMaskIntoConstraints="NO" id="Wcn-al-FiV">
-                                <rect key="frame" x="20" y="252.5" width="335" height="237"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-coffee-cup" translatesAutoresizingMaskIntoConstraints="NO" id="Wcn-al-FiV">
+                                <rect key="frame" x="20" y="252.5" width="335" height="237.5"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OWr-iL-bao"/>
@@ -425,18 +425,18 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPU-Rl-EXh">
-                                <rect key="frame" x="20" y="121" width="335" height="630"/>
+                                <rect key="frame" x="20" y="121" width="335" height="470"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w8l-oe-tFY">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="630"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="470"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gk9-Dq-9w0">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="150"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="46G-uT-Npm">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-fast-food" translatesAutoresizingMaskIntoConstraints="NO" id="46G-uT-Npm">
                                                         <rect key="frame" x="0.0" y="0.0" width="157.5" height="150"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="il3-uO-04q">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-breakfast-brunch" translatesAutoresizingMaskIntoConstraints="NO" id="il3-uO-04q">
                                                         <rect key="frame" x="177.5" y="0.0" width="157.5" height="150"/>
                                                     </imageView>
                                                 </subviews>
@@ -447,10 +447,10 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gU9-UH-dRq">
                                                 <rect key="frame" x="0.0" y="160" width="335" height="150"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xjQ-Bv-4X1">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-mexican" translatesAutoresizingMaskIntoConstraints="NO" id="xjQ-Bv-4X1">
                                                         <rect key="frame" x="0.0" y="0.0" width="157.5" height="150"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z1v-dO-wIA">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bakery" translatesAutoresizingMaskIntoConstraints="NO" id="z1v-dO-wIA">
                                                         <rect key="frame" x="177.5" y="0.0" width="157.5" height="150"/>
                                                     </imageView>
                                                 </subviews>
@@ -461,29 +461,15 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Czs-wU-leJ">
                                                 <rect key="frame" x="0.0" y="320" width="335" height="150"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yON-cX-cdU">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-deserts" translatesAutoresizingMaskIntoConstraints="NO" id="yON-cX-cdU">
                                                         <rect key="frame" x="0.0" y="0.0" width="157.5" height="150"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Ce-OE-ACj">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-burger" translatesAutoresizingMaskIntoConstraints="NO" id="7Ce-OE-ACj">
                                                         <rect key="frame" x="177.5" y="0.0" width="157.5" height="150"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="EcA-qI-LNl"/>
-                                                </constraints>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UcV-N0-x3x">
-                                                <rect key="frame" x="0.0" y="480" width="335" height="150"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-My-FKl">
-                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="150"/>
-                                                    </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dwf-QW-Py1">
-                                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="150"/>
-                                                    </imageView>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="SVd-eI-KqM"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
@@ -701,8 +687,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="coffe_cup" width="307" height="237"/>
-        <image name="iceCream" width="214" height="243"/>
+        <image name="img-bakery" width="160" height="160"/>
+        <image name="img-breakfast-brunch" width="160" height="160"/>
+        <image name="img-burger" width="160" height="160"/>
+        <image name="img-coffee-cup" width="307" height="237.5"/>
+        <image name="img-deserts" width="160" height="160"/>
+        <image name="img-fast-food" width="160" height="160"/>
+        <image name="img-ice-cream" width="213.5" height="243.5"/>
+        <image name="img-mexican" width="160" height="160"/>
         <image name="logo" width="65" height="65"/>
         <namedColor name="#010f07">
             <color red="0.0039215686274509803" green="0.058823529411764705" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
