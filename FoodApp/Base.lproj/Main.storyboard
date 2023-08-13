@@ -62,7 +62,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="iceCream" translatesAutoresizingMaskIntoConstraints="NO" id="rBp-ML-IMC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="img-ice-cream" translatesAutoresizingMaskIntoConstraints="NO" id="rBp-ML-IMC">
                                 <rect key="frame" x="50" y="234" width="275" height="183"/>
                             </imageView>
                         </subviews>
