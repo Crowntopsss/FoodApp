@@ -22,5 +22,11 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func setup(data: FoodModel) {
+        cellImage.image = data.foodImage
+        foodLabel.text = data.foodName
+        descriptionLabel.text = data.description
+    }
 
 }
