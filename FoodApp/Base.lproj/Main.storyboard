@@ -674,15 +674,16 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="160" id="jG8-zX-74j"/>
                                                 </constraints>
-                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="F8W-Bw-DfR">
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="F8W-Bw-DfR">
                                                     <size key="itemSize" width="126" height="161"/>
+                                                    <size key="estimatedItemSize" width="126" height="161"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="1N3-nX-oIC">
-                                                        <rect key="frame" x="0.0" y="0.0" width="126" height="161"/>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="1N3-nX-oIC" customClass="CollectionViewCell" customModule="FoodApp" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="-0.5" width="126" height="161"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2Dq-VA-cK2">
                                                             <rect key="frame" x="0.0" y="0.0" width="126" height="161"/>
@@ -733,6 +734,11 @@
                                                             </constraints>
                                                         </collectionViewCellContentView>
                                                         <size key="customSize" width="126" height="161"/>
+                                                        <connections>
+                                                            <outlet property="cellImage" destination="esy-2N-xYk" id="SHb-Sw-Xjv"/>
+                                                            <outlet property="descriptionLabel" destination="40c-mT-b3J" id="JGG-ec-2UF"/>
+                                                            <outlet property="foodLabel" destination="mhp-I9-Ll6" id="XMk-b2-cMY"/>
+                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
                                             </collectionView>
@@ -800,6 +806,11 @@
                                                                 <constraint firstItem="MAc-gR-fJL" firstAttribute="leading" secondItem="dtk-Vy-JFQ" secondAttribute="trailing" constant="20" id="wbF-Ae-CkP"/>
                                                             </constraints>
                                                         </tableViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="cellImage" destination="dtk-Vy-JFQ" id="OeA-7a-CYe"/>
+                                                            <outlet property="descriptionLabel" destination="CI6-Ho-CeM" id="GeW-1y-xiM"/>
+                                                            <outlet property="foodLabel" destination="qTm-jZ-cWe" id="fMU-o5-png"/>
+                                                        </connections>
                                                     </tableViewCell>
                                                 </prototypes>
                                             </tableView>
