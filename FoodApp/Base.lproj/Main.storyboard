@@ -396,7 +396,7 @@
             </objects>
             <point key="canvasLocation" x="4903.1999999999998" y="-2.2488755622188905"/>
         </scene>
-        <!--Item 2-->
+        <!--Search-->
         <scene sceneID="amF-Io-4T6">
             <objects>
                 <viewController id="RdB-iS-D9K" customClass="SearchViewController" customModule="FoodApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -491,13 +491,13 @@
                             <constraint firstItem="cPU-Rl-EXh" firstAttribute="top" secondItem="4Gc-zd-dM5" secondAttribute="bottom" constant="10" id="oZg-mg-beQ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="wjx-ll-7hu"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="wjx-ll-7hu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Zk-a9-xPw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2805.5999999999999" y="1619.6401799100452"/>
         </scene>
-        <!--Item 3-->
+        <!--Order-->
         <scene sceneID="Zkp-C2-lB7">
             <objects>
                 <viewController id="IzM-pU-GEQ" customClass="OrderViewController" customModule="FoodApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -524,13 +524,13 @@
                             <constraint firstItem="4Os-s4-vmg" firstAttribute="top" secondItem="7eU-nI-hPT" secondAttribute="top" constant="10" id="Pld-fz-8mJ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 3" id="8Ze-hN-GwM"/>
+                    <tabBarItem key="tabBarItem" title="Order" image="cart.fill" catalog="system" id="8Ze-hN-GwM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Os-VR-5Jd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="781.60000000000002" y="1596.2518740629687"/>
         </scene>
-        <!--Item 1-->
+        <!--Home-->
         <scene sceneID="eEq-Vy-4KR">
             <objects>
                 <viewController id="mby-FP-gik" customClass="HomeViewController" customModule="FoodApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -863,7 +863,7 @@
                             <constraint firstItem="vxp-5T-uxq" firstAttribute="width" secondItem="k11-s0-3Kn" secondAttribute="width" id="p4t-Uy-xle"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="cpe-Mw-Jl7"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="cpe-Mw-Jl7"/>
                     <connections>
                         <outlet property="collectionView" destination="Hxi-LM-h4f" id="4pB-I5-1Ww"/>
                         <outlet property="tableView" destination="sW4-wQ-rcI" id="rB4-Vb-1om"/>
@@ -893,7 +893,7 @@
             </objects>
             <point key="canvasLocation" x="1826" y="1194"/>
         </scene>
-        <!--Item 4-->
+        <!--Profile-->
         <scene sceneID="pbv-FI-Px5">
             <objects>
                 <viewController id="Gou-ZV-7tL" customClass="ProfileViewController" customModule="FoodApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -971,7 +971,7 @@
                             <constraint firstAttribute="trailing" secondItem="vmq-tS-vki" secondAttribute="trailing" constant="20" id="bp0-hG-8Iy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 4" id="7Ol-Ir-VRF"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="7Ol-Ir-VRF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Tf-yU-ASN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -997,8 +997,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="dollar-image" width="20" height="20"/>
         <image name="food header" width="375" height="280"/>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="img-bakery" width="160" height="160"/>
         <image name="img-breakfast-brunch" width="160" height="160"/>
         <image name="img-burger" width="160" height="160"/>
@@ -1008,6 +1010,8 @@
         <image name="img-ice-cream" width="213.5" height="243.5"/>
         <image name="img-mexican" width="160" height="160"/>
         <image name="logo" width="65" height="65"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="time" width="20" height="20"/>
         <namedColor name="#010f07">
