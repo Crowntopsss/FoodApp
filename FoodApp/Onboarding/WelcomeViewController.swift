@@ -6,24 +6,45 @@
 //
 
 import UIKit
+import Foundation
 
 class WelcomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var newAccountBtn: UILabel!
+    @IBOutlet weak var forgotPasswordLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        newAccountBtn.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(createNewAccAction)))
+        
+        forgotPasswordLabel.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(forgotPasswordAction)))
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func signInAction(_ sender: Any) {
+        guard let vc = self.storyboard?.instantiateViewController(identifier: "TabBarController") else {return}
+        let window = UIApplication
+            .shared
+            .connectedScenes
+            .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
+            .last { $0.isKeyWindow }
+        window?.rootViewController = vc
+        window?.makeKeyAndVisible()
+               
     }
-    */
+    
+    @objc
+    func createNewAccAction() {
+        guard let vc = self.storyboard?.instantiateViewController(identifier: "WelcomePageViewController") else {return}
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc
+    func forgotPasswordAction() {
+        guard let vc = self.storyboard?.instantiateViewController(identifier: "SignUpPageViewController") else {return}
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+
+    
 
 }

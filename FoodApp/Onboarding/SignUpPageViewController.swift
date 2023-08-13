@@ -1,5 +1,5 @@
 //
-//  WelcomePageViewController.swift
+//  SignUpPageViewController.swift
 //  FoodApp
 //
 //  Created by Temitope on 13/08/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WelcomePageViewController: UIViewController {
+class SignUpPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
