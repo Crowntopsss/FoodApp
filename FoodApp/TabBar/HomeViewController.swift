@@ -25,7 +25,11 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
+    private func showAlert() {
+        let alert = UIAlertController(title: "", message: "Order added successfully", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
 
 }
 
@@ -40,6 +44,11 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let data = data[indexPath.row]
+        orders.append(data)
+        showAlert()
+    }
     
 }
 
@@ -54,5 +63,10 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let data = data[indexPath.row]
+        orders.append(data)
+        showAlert()
+    }
     
 }
